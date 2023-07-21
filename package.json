@@ -15,6 +15,7 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@modyfi/vite-plugin-yaml": "^1.0.4",
     "@rushstack/eslint-patch": "^1.2.0",
     "@tsconfig/node18": "^2.0.1",
     "@types/node": "^18.16.17",

@@ -1,0 +1,14 @@
+---
+- title: Test1
+  apps:
+  - name: github
+    url: https://github.com
+  - name: aiz
+    url: https://aiz.moe
+- title: Proton
+  apps:
+  - name: Mail
+    url: https://account.proton.me/login
+  - name: Drive
+    url: https://drive.proton.me
+

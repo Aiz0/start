@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import applist from '../../applist.yaml'
+import applist from '/applist.yaml'
 </script>
 
 <template>

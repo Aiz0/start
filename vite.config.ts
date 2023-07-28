@@ -23,8 +23,8 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('src', import.meta.url)),
-      '@images': resolve(__dirname, 'src/images')
+      '@': resolve(__dirname, 'src'),
+      '@images': resolve(__dirname, 'src/assets/images')
     }
   }
 })

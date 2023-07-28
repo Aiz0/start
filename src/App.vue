@@ -1,12 +1,21 @@
 <script setup lang="ts">
-import List from './components/list.vue';
+import Home from './components/Home.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
   <main>
-      <List></List>
+      <Home/>
   </main>
+  <Footer/>
 </template>
 
-<style scoped>
+<style scoped lang=scss>
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 </style>

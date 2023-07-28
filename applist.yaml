@@ -1,4 +1,3 @@
----
 - title: Test1
   apps:
   - name: github
@@ -11,4 +10,9 @@
     url: https://account.proton.me/login
   - name: Drive
     url: https://drive.proton.me
-
+- title: Local
+  apps:
+  - name: Torrent
+    url: http://localhost:9091
+  - name: Syncthing
+    url: http://localhost:8384

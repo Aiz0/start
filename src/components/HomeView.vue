@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import Applists from "@/components/Applists.vue";
-import Image from "@/components/Image.vue";
+import AppList from "@/components/AppList.vue";
+import PicturePreset from "@/components/PicturePreset.vue";
 import mashiro from "@images/mashiro.png?preset=default"
 </script>
 
 <template>
 <div class="main-window">
-    <Image :src="mashiro"/>
+    <PicturePreset :src="mashiro"/>
     <div class="container">
         <h1>Welcome</h1>
-        <Applists/>
+        <AppList/>
     </div>
 </div>
 </template>

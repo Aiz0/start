@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import Home from './components/Home.vue';
-import Footer from './components/Footer.vue';
+import HomeView from './components/HomeView.vue';
+import FooterView from './components/FooterView.vue';
 </script>
 
 <template>
   <main>
-      <Home/>
+      <HomeView/>
   </main>
-  <Footer/>
+  <FooterView/>
 </template>
 
 <style scoped lang=scss>

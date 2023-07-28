@@ -4,11 +4,15 @@ import applist from '/applist.yaml'
 
 <template>
 <div class="list-container">
-    <section v-for="section in applist">
+    <section v-for="section in applist"
+            :key="section.title">
         <h2 class="section__title">{{ section.title }}</h2>
         <ul class="section__list">
-            <li v-for="app in section.apps" class="section__list-item">
-                <a :href="app.url" class="section__link">
+            <li v-for="app in section.apps"
+                :key="app.name"
+                class="section__list-item">
+                <a :href="app.url"
+                    class="section__link">
                     {{ app.name }}
                 </a>
             </li>

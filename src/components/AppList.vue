@@ -3,22 +3,28 @@ import applist from '/applist.yaml'
 </script>
 
 <template>
-<div class="list-container">
-    <section v-for="section in applist"
-            :key="section.title">
-        <h2 class="section__title">{{ section.title }}</h2>
-        <ul class="section__list">
-            <li v-for="app in section.apps"
-                :key="app.name"
-                class="section__list-item">
-                <a :href="app.url"
-                    class="section__link">
-                    {{ app.name }}
-                </a>
-            </li>
-        </ul>
-    </section>
-</div>
+    <div class="list-container">
+        <section
+            v-for="section in applist"
+            :key="section.title"
+        >
+            <h2 class="section__title">{{ section.title }}</h2>
+            <ul class="section__list">
+                <li
+                    v-for="app in section.apps"
+                    :key="app.name"
+                    class="section__list-item"
+                >
+                    <a
+                        :href="app.url"
+                        class="section__link"
+                    >
+                        {{ app.name }}
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </div>
 </template>
 
 <style scoped lang="scss">
@@ -45,12 +51,11 @@ import applist from '/applist.yaml'
     &__link {
         color: theme.$text;
         text-decoration: none;
-        
-        &:hover{
+
+        &:hover {
             color: theme.$text-alt2;
             transition: color 0.4s;
         }
     }
 }
-
 </style>

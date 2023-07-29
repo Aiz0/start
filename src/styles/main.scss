@@ -1,15 +1,14 @@
 @use 'themes/theme';
 
 body {
-  min-height: 100vh;
-  color: theme.$text;
-  background: theme.$background;
-  line-height: 1.6;
-  font-size: 18px;
-  text-rendering: optimizeLegibility;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    
+    min-height: 100vh;
+    color: theme.$text;
+    background: theme.$background;
+    line-height: 1.6;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 #app {

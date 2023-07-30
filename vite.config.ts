@@ -14,10 +14,10 @@ export default defineConfig({
         favicons('./src/assets/logo.png'),
         imagePresets({
             default: widthPreset({
-                widths: [200, 250],
-                sizes: '(max-width: 980px) 200px, 250px',
+                widths: [200, 250, 300],
+                sizes: '(max-width: 980px) 200px, (max-width:2000) 250px 300',
                 formats: {
-                    webp: { quality: 100 },
+                    webp: { near_lossless: true },
                 },
                 inferDimensions: true,
             }),

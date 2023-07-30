@@ -31,6 +31,16 @@ import mashiro from '@images/mashiro.png?preset=default'
     margin: 30px;
 }
 
+picture {
+    width: 300px;
+}
+
+@media (max-width: 980px) {
+    Picture {
+        width: 200px;
+    }
+}
+
 @media (max-width: 833px) {
     Picture {
         display: none;

@@ -24,4 +24,9 @@ export default { inheritAttrs: false }
 picture {
     display: flex;
 }
+
+img {
+    height: auto;
+    width: 100%;
+}
 </style>

@@ -17,6 +17,7 @@ export default defineConfig({
                 formats: {
                     webp: { quality: 100 },
                 },
+                inferDimensions: true,
             }),
         }),
     ],

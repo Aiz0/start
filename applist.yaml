@@ -1,18 +1,34 @@
-- title: Test1
+- title: Social
   apps:
-  - name: github
-    url: https://github.com
-  - name: aiz
-    url: https://aiz.moe
+      - name: Nitter
+        url: https://nitter.unixfox.eu/alpharad,simpleflips,ppy,porterrobinson,vaushv,halomancer1,junlper
+      - name: Lemmy
+        url: https://lemmy.blahaj.zone/Login
+      - name: Twitch
+        url: https://twitch.tv
+- title: Tracking
+  apps:
+      - name: Github
+        url: https://github.com
+      - name: Anilist
+        url: https://anilist.co/login
+      - name: Figures
+        url: https://myfigurecollection.net/session/signin
 - title: Proton
   apps:
-  - name: Mail
-    url: https://account.proton.me/login
-  - name: Drive
-    url: https://drive.proton.me
+      - name: Mail
+        url: https://account.proton.me/login
+      - name: Drive
+        url: https://drive.proton.me
+- title: other
+  apps:
+      - name: Nyaa
+        url: https://nyaa.si
+      - name: Chess
+        url: https://chess.com
 - title: Local
   apps:
-  - name: Torrent
-    url: http://localhost:9091
-  - name: Syncthing
-    url: http://localhost:8384
+      - name: Torrent
+        url: http://localhost:9091
+      - name: Syncthing
+        url: http://localhost:8384

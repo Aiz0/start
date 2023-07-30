@@ -12,8 +12,8 @@ export default defineConfig({
         ViteYaml(),
         imagePresets({
             default: widthPreset({
-                widths: [200, 300],
-                sizes: '(max-width: 980px) 200px, 300px',
+                widths: [200, 250],
+                sizes: '(max-width: 980px) 200px, 250px',
                 formats: {
                     webp: { quality: 100 },
                 },

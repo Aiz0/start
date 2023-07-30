@@ -32,13 +32,13 @@ import applist from '/applist.yaml'
 .list-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 .section {
     &__title {
         color: themes.$text-alt2;
-        font-size: 20px;
+        font-size: 18px;
         margin: 0;
     }
 

@@ -21,7 +21,6 @@ import mashiro from '@images/mashiro.png?preset=default'
     display: flex;
     margin: 30px;
     background-color: themes.$contrast;
-    width: 910px;
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -32,7 +31,7 @@ import mashiro from '@images/mashiro.png?preset=default'
 }
 
 picture {
-    width: 300px;
+    width: 250px;
 }
 
 @media (max-width: 980px) {

@@ -28,7 +28,7 @@ import applist from '/applist.yaml'
 </template>
 
 <style scoped lang="scss">
-@use '../styles/themes/theme';
+@use '@/styles/themes';
 .list-container {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +37,7 @@ import applist from '/applist.yaml'
 
 .section {
     &__title {
-        color: theme.$text-alt2;
+        color: themes.$text-alt2;
         font-size: 20px;
         margin: 0;
     }
@@ -49,11 +49,11 @@ import applist from '/applist.yaml'
     }
 
     &__link {
-        color: theme.$text;
+        color: themes.$text;
         text-decoration: none;
 
         &:hover {
-            color: theme.$text-alt2;
+            color: themes.$text-alt2;
             transition: color 0.4s;
         }
     }

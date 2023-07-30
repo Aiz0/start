@@ -1,9 +1,9 @@
-@use 'themes/theme';
+@use 'themes';
 
 body {
     min-height: 100vh;
-    color: theme.$text;
-    background: theme.$background;
+    color: themes.$text;
+    background: themes.$background;
     line-height: 1.6;
     font-size: 18px;
     text-rendering: optimizeLegibility;

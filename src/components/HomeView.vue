@@ -15,12 +15,12 @@ import mashiro from '@images/mashiro.png?preset=default'
 </template>
 
 <style scoped lang="scss">
-@use '@/styles/themes/theme';
+@use '@/styles/themes';
 
 .main-window {
     display: flex;
     margin: 30px;
-    background-color: theme.$contrast;
+    background-color: themes.$contrast;
     width: 910px;
     border-radius: 4px;
     overflow: hidden;

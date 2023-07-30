@@ -21,6 +21,7 @@
     },
     "devDependencies": {
         "@modyfi/vite-plugin-yaml": "^1.0.4",
+        "@peterek/vite-plugin-favicons": "^1.0.0",
         "@rushstack/eslint-patch": "^1.2.0",
         "@tsconfig/node18": "^2.0.1",
         "@types/node": "^18.16.17",

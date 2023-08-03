@@ -12,10 +12,13 @@ import FooterView from './components/FooterView.vue'
 
 <style scoped lang="scss">
 main {
-    height: 100%;
-    width: 100%;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    flex: 0;
 }
 </style>

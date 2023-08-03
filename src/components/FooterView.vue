@@ -1,23 +1,25 @@
 <template>
     <footer>
-        <a href="https://github.com/Aiz0/start">Github Repo</a>
+        <div class="container">
+            <a href="https://github.com/Aiz0/start">Github Repo</a>
+        </div>
     </footer>
 </template>
 
 <style scoped lang="scss">
 @use '@/styles/themes';
-footer {
-    position: fixed;
-    bottom: 0;
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 8px;
+}
+a {
     font-size: 0.5em;
+    color: themes.$text-alt;
+    text-decoration: none;
 
-    a {
-        color: themes.$text-alt;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
+    &:hover {
+        text-decoration: underline;
     }
 }
 </style>

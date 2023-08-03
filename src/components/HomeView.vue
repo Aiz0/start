@@ -19,6 +19,7 @@ import mashiro from '@images/mashiro.png?preset=default'
 
 .main-window {
     display: flex;
+    width: 910px;
     margin: 30px;
     background-color: themes.$contrast;
     border-radius: 4px;

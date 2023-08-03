@@ -2,6 +2,7 @@
 
 body {
     min-height: 100vh;
+    margin: 0;
     color: themes.$text;
     background: themes.$background;
     line-height: 1.5;
@@ -13,4 +14,6 @@ body {
 
 #app {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }

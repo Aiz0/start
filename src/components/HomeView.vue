@@ -1,12 +1,21 @@
 <script setup lang="ts">
 import AppList from '@/components/AppList.vue'
 import PicturePreset from '@/components/PicturePreset.vue'
-import mashiro from '@images/mashiro.png?preset=default'
+import config from '/config.yaml'
+import type { ImageAttrs } from 'vite-plugin-image-presets'
+const images = import.meta.glob<ImageAttrs[]>('@images/**', {
+    eager: true,
+    as: 'preset=default', // use whatever preset you want
+    import: 'default', // to simplify "unwrapping" the imports
+})
+
+// Get image to use from config file
+const image = images['/src/assets/images/' + config.picture.path]
 </script>
 
 <template>
     <div class="main-window">
-        <PicturePreset :src="mashiro" />
+        <PicturePreset :src="image" />
         <div class="container">
             <h1>Welcome</h1>
             <AppList />

@@ -1,7 +1,12 @@
+<script setup lang="ts">
+import config from '/config.yaml'
+</script>
 <template>
     <footer>
         <div class="container">
             <a href="https://github.com/Aiz0/start">Github Repo</a>
+
+            <a :href="config.picture.credits.url"> Art by {{ config.picture.credits.artist }} </a>
         </div>
     </footer>
 </template>

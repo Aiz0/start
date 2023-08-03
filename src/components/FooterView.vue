@@ -1,12 +1,18 @@
 <script setup lang="ts">
 import config from '/config.yaml'
+const credits = config.picture.credits
 </script>
 <template>
     <footer>
         <div class="container">
             <a href="https://github.com/Aiz0/start">Github Repo</a>
 
-            <a :href="config.picture.credits.url"> Art by {{ config.picture.credits.artist }} </a>
+            <a
+                v-if="credits"
+                :href="credits.url"
+            >
+                Art by {{ config.picture.credits.artist ? credits.artist : 'Unknown' }}
+            </a>
         </div>
     </footer>
 </template>

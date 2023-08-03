@@ -9,7 +9,7 @@
 - title: Tracking
   apps:
       - name: Github
-        url: https://github.com
+        url: https://github.com/login
       - name: Anilist
         url: https://anilist.co/login
       - name: Figures
@@ -25,7 +25,7 @@
       - name: Nyaa
         url: https://nyaa.si
       - name: Chess
-        url: https://chess.com
+        url: https://chess.com/login
 - title: Local
   apps:
       - name: Torrent

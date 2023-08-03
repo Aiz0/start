@@ -31,6 +31,10 @@ import mashiro from '@images/mashiro.png?preset=default'
     margin: 30px;
 }
 
+h1 {
+    color: themes.$text-alt;
+}
+
 picture {
     width: 300px;
 }

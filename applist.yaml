@@ -1,7 +1,9 @@
 - title: Social
   apps:
+      - name: Bluesky
+        url: https://bsky.app
       - name: Nitter
-        url: https://nitter.unixfox.eu/alpharad,simpleflips,ppy,porterrobinson,vaushv,halomancer1,junlper
+        url: https://nitter.unixfox.eu/alpharad,simpleflips,ppy,porterrobinson,vaushv,halomancer1,junlperbot
       - name: Lemmy
         url: https://lemmy.blahaj.zone/Login
       - name: Twitch
@@ -9,11 +11,13 @@
 - title: Tracking
   apps:
       - name: Github
-        url: https://github.com/login
+        url: https://github.com
       - name: Anilist
-        url: https://anilist.co/login
+        url: https://anilist.co
       - name: Figures
         url: https://myfigurecollection.net/session/signin
+      - name: Simkl
+        url: https://simkl.com
 - title: Proton
   apps:
       - name: Mail
@@ -22,13 +26,15 @@
         url: https://drive.proton.me
 - title: other
   apps:
-      - name: Nyaa
-        url: https://nyaa.si
       - name: Chess
         url: https://chess.com/login
-- title: Local
+- title: Torrent
   apps:
       - name: Torrent
         url: http://localhost:9091
+      - name: Nyaa
+        url: https://nyaa.si
+      - name: Subsplease
+        url: https://subsplease.org/
       - name: Syncthing
         url: http://localhost:8384

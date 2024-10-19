@@ -3,8 +3,6 @@
   apps:
       - name: Bluesky
         url: https://bsky.app
-      - name: Nitter
-        url: https://nitter.unixfox.eu/alpharad,simpleflips,ppy,porterrobinson,vaushv,halomancer1,junlperbot
       - name: Lemmy
         url: https://lemmy.blahaj.zone/Login
       - name: Twitch
@@ -16,26 +14,33 @@
       - name: Anilist
         url: https://anilist.co
       - name: Figures
-        url: https://myfigurecollection.net/session/signin
+        url: https://myfigurecollection.net
       - name: Simkl
         url: https://simkl.com
 - title: Proton
   apps:
       - name: Mail
-        url: https://account.proton.me/login
+        url: https://mail.proton.me
       - name: Drive
         url: https://drive.proton.me
+      - name: Calendar
+        url: https://calendar.proton.me
+      - name: Pass
+        url: https://pass.proton.me
+        
 - title: other
   apps:
       - name: Chess
         url: https://chess.com/login
-- title: Torrent
+- title: Selfhost
   apps:
-      - name: Torrent
+      - name: Jellyfin
+        url: http://localhost:8096
+      - name: Transmission
         url: http://localhost:9091
-      - name: Nyaa
-        url: https://nyaa.si
-      - name: Subsplease
-        url: https://subsplease.org/
+      - name: Sonarr
+        url: http://localhost:8989
+      - name: Radarr
+        url: http://localhost:7878
       - name: Syncthing
         url: http://localhost:8384

@@ -3,8 +3,6 @@
   apps:
       - name: Bluesky
         url: https://bsky.app
-      - name: Nitter
-        url: https://nitter.unixfox.eu/alpharad,simpleflips,ppy,porterrobinson,vaushv,halomancer1,junlperbot
       - name: Lemmy
         url: https://lemmy.blahaj.zone/Login
       - name: Twitch

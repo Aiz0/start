@@ -20,9 +20,14 @@
 - title: Proton
   apps:
       - name: Mail
-        url: https://account.proton.me/login
+        url: https://mail.proton.me
       - name: Drive
         url: https://drive.proton.me
+      - name: Calendar
+        url: https://calendar.proton.me
+      - name: Pass
+        url: https://pass.proton.me
+        
 - title: other
   apps:
       - name: Chess

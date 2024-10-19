@@ -27,13 +27,15 @@
   apps:
       - name: Chess
         url: https://chess.com/login
-- title: Torrent
+- title: Selfhost
   apps:
-      - name: Torrent
+      - name: Jellyfin
+        url: http://localhost:8096
+      - name: Transmission
         url: http://localhost:9091
-      - name: Nyaa
-        url: https://nyaa.si
-      - name: Subsplease
-        url: https://subsplease.org/
+      - name: Sonarr
+        url: http://localhost:8989
+      - name: Radarr
+        url: http://localhost:7878
       - name: Syncthing
         url: http://localhost:8384

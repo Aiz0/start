@@ -14,7 +14,7 @@
       - name: Anilist
         url: https://anilist.co
       - name: Figures
-        url: https://myfigurecollection.net/session/signin
+        url: https://myfigurecollection.net
       - name: Simkl
         url: https://simkl.com
 - title: Proton

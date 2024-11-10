@@ -3,6 +3,8 @@
   apps:
       - name: Bluesky
         url: https://bsky.app
+      - name: Frontpage
+        url: https://frontpage.fyi
       - name: Lemmy
         url: https://lemmy.blahaj.zone/Login
       - name: Twitch
